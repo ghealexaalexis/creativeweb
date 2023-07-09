@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+    :root {
+        --main-white: #f0f0f0;
+        --main-red:  #F00B0B;
+        --main-blue: #45567d;
+        --main-gray: #303841;
+      }
+      
+      /* Base reset */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* box-sizing and font sizing */
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+      
+      html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+      }
+      
+      @media (max-width: 75em) {
+        html {
+          font-size: 60%;
+        }
+      }
+      
+      
+      @media (max-width: 61.25em) {
+        html {
+          font-size: 58%;
+        }
+      }
+      
+    
+      @media (max-width: 28.75em) {
+        html {
+          font-size: 55%;
+        }
+      }
+      
+      /* Base styles */
+      
+      body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem; /* 18px */
+        font-weight: 400;
+        line-height: 1.4;
+        color: var(--main-white);
+      }
+      
+      h1,
+      h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        text-align: center;
+      }
+      
+      h1 {
+        font-size: 6rem;
+      }
+      
+      h2 {
+        font-size: 4.2rem;
+      }
+      
+      ul {
+        list-style: none;
+      }
+      
+      a {
+        text-decoration: none;
+        color: var(--main-white);
+      }
+      
+      img {
+        display: block;
+        width: 100%;
+      }
+      
+      /* nav */
+      
+      .nav {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: var(--main-red);
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+        z-index: 10;
+      }
+      
+      .nav-list {
+        display: flex;
+        margin-right: 2rem;
+      }
+      
+      @media (max-width: 28.75em) {
+        .nav {
+          justify-content: center;
+        }
+      
+        .nav-list {
+          margin: 0 1rem;
+        }
+      }
+      
+      .nav-list a {
+        display: block;
+        font-size: 2.2rem;
+        padding: 2rem;
+      }
+      
+      .nav-list a:hover {
+        background: var(--main-blue);
+      } 
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+<!-- START NAV -->
+
+<section>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li><a href="main.html">Pagină de pornire</a></li>
+          <li><a href="moddelucru.html">Mod de lucru</a></li>
+          <li><a href="servicii.html">Servicii</a></li>
+          <li><a href="portofoliu.html">Portofoliu</a></li>
+          <li><a href="oferta.html">Cere o ofertă</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="https://m.facebook.com/profile.php?id=100091465766312&wtsid=rdr_0s2fHspNQXG8qt10r" target="_blank">
+              <img src="facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/creative_web_2023?igshid=MzRlODBiNWFlZA==" target="_blank">
+              <img src="instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+            </a>
+          </li>
+        </ul>
+      </nav> 
+</section>
+<!-- END NAV -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- START Section 1  -->
+<section style="text-align: center; color: black;">
+    <div class="carousel-container">
+      <div id="carousel" class="carousel">
+        <div class="carousel-slide">
+          <div class="carousel-content">
+            <div class="carousel-image">
+              <img src="1.png" alt="Image 1">
+            </div>
+            <div class="carousel-text">
+              <p>Ideal pentru start-up-uri sau mici întreprinderi care doresc să-și facă debutul online. Include un site de prezentare cu până la 5 pagini, design responsive, optimizare SEO de bază și conectare la Google Search Console. Nu include conținut personalizat sau funcționalități suplimentare.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-content">
+            <div class="carousel-image">
+              <img src="2.png" alt="Image 2">
+            </div>
+            <div class="carousel-text">
+              <p>Conceput pentru a oferi o soluție completă pentru prezența online. Include un site web personalizat, optimizare SEO, conținut personalizat, conectare la Google Search Console și instrucțiuni pentru gestionarea site-ului.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-content">
+            <div class="carousel-image">
+              <img src="3.png" alt="Image 3">
+            </div>
+            <div class="carousel-text">
+              <p>Acest pachet este destinat companiilor care caută să își extindă prezența online. Include un site web cu design personalizat, până la 10 pagini, optimizare avansată SEO, conectare la Google Search Console, instrucțiuni pentru gestionarea site-ului, set-up pentru Google Analytics și integrare cu rețelele sociale.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="carousel-content">
+            <div class="carousel-image">
+              <img src="4.png" alt="Image 4">
+            </div>
+            <div class="carousel-text">
+              <p>Acest pachet este destinat pentru companiile care caută o soluție completă și personalizată pentru prezența lor online. Include un site web cu design personalizat, număr nelimitat de pagini, optimizare SEO avansată, conținut personalizat, blog, integrare cu rețelele sociale, set-up pentru Google Analytics, Google Search Console, și asistență tehnică pentru o lună după lansarea site-ului.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+  }
+  
+  .carousel-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .carousel-image img {
+    width: 400px;
+    height: 600px;
+  }
+  
+  .carousel-text {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  </style>
+  
+  <script>
+  var carouselSlides = document.querySelectorAll('.carousel-slide');
+  var currentSlideIndex = 0;
+  
+  function showSlide(index) {
+    for (var i = 0; i < carouselSlides.length; i++) {
+      carouselSlides[i].classList.remove('active');
+    }
+    carouselSlides[index].classList.add('active');
+  }
+  
+  function rotateSlides() {
+    showSlide(currentSlideIndex);
+    currentSlideIndex = (currentSlideIndex + 1) % carouselSlides.length;
+  }
+  
+  // Initial display
+  showSlide(currentSlideIndex);
+  
+  // Rotate slides every 7 seconds
+  setInterval(rotateSlides, 7000);
+  </script>
+  <!-- END Section 1  -->
+<br>
+<br>
+<br>
+<!-- START Section 2  -->
+<section style="text-align: center; color: black;">
+    <div>
+      <p>Este posibil să credeți că realizarea unui site web profesionist este un proces complicat și costisitor. Cu pachetul nostru "Succes Online", vă asigurăm că acest lucru nu este adevărat. Avem experiența și expertiza necesare pentru a vă livra un site web de calitate într-un mod eficient și la un preț accesibil.</p>
+      <br>
+      <p>Înainte de a începe lucrul la site-ul dvs., ne ocupăm de toate pregătirile necesare, cum ar fi conectarea domeniului și configurarea hostingului. De asemenea, vă vom ghida prin procesul de adăugare a conținutului și vă vom oferi instrucțiuni pentru gestionarea site-ului în viitor.</p>
+      <br>
+      <p>Pentru a elimina riscul, oferim o garanție de 30 de zile, în care puteți solicita modificări sau îmbunătățiri ale site-ului, fără costuri suplimentare. În plus, dacă nu sunteți mulțumit de serviciile noastre în primele 14 zile, vă vom returna avansul de 20%. Aceasta este dovada încrederii noastre în calitatea serviciilor noastre.</p>
+      <br>
+      <p>In plus, pentru a asigura transparența și siguranța procesului, vă vom solicita plata finală doar după ce sunteți complet mulțumit de rezultatele obținute.</p>
+      <br>
+      <p>Așteptăm cu nerăbdare să lucrăm împreună cu dumneavoastră pentru a crea un site web de succes.</p>
+    </div>
+  </section>
+  
+  <style>
+  section {
+    text-align: center;
+    color: black;
+  }
+  </style>
+  <!-- END Section 2  -->
+  <br>
+  <br>
+  <br>
+  <!-- START FOOTER SECTION -->
+  <footer class="footer-section" style="background-color: red; color: white;">
+    <div class="container" style="padding: 0 20px; display: flex; justify-content: space-between;">
+      <div class="column">
+        <p>DESPRE NOI<br>
+          SC QUALITYHOLIC SRL<br>
+          47751462<br>
+          J23/1493/2023<br><br>
+        </p>
+      </div>
+      <div class="column">
+        <p>URMĂREȘTE-NE<br>
+          Rămâi la curent cu serviciile noastre<br><br>
+          <a href="https://m.facebook.com/profile.php?id=100091465766312&wtsid=rdr_0s2fHspNQXG8qt10r" target="_blank"><i class="fab fa-facebook"></i> Facebook</a><br>
+          <a href="https://instagram.com/creative_web_2023?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </p>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <p>Politica de confidențialitate</p>
+      <img src="Sign.png" alt="Designed by" class="designed-by-image" style="width: 50px; height: 50px; display: block; margin: 0 auto;">
+    </div>
+  </footer>
+  <!-- END FOOTER SECTION -->
+  </body>
+  </html>

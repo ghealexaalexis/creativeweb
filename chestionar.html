@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+    :root {
+        --main-white: #f0f0f0;
+        --main-red:  #F00B0B;
+        --main-blue: #45567d;
+        --main-gray: #303841;
+      }
+      
+      /* Base reset */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* box-sizing and font sizing */
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+      
+      html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+      }
+      
+      @media (max-width: 75em) {
+        html {
+          font-size: 60%;
+        }
+      }
+      
+      
+      @media (max-width: 61.25em) {
+        html {
+          font-size: 58%;
+        }
+      }
+      
+    
+      @media (max-width: 28.75em) {
+        html {
+          font-size: 55%;
+        }
+      }
+      
+      /* Base styles */
+      
+      body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem; /* 18px */
+        font-weight: 400;
+        line-height: 1.4;
+        color: var(--main-white);
+      }
+      
+      h1,
+      h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        text-align: center;
+      }
+      
+      h1 {
+        font-size: 6rem;
+      }
+      
+      h2 {
+        font-size: 4.2rem;
+      }
+      
+      ul {
+        list-style: none;
+      }
+      
+      a {
+        text-decoration: none;
+        color: var(--main-white);
+      }
+      
+      img {
+        display: block;
+        width: 100%;
+      }
+      
+      /* nav */
+      
+      .nav {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: var(--main-red);
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+        z-index: 10;
+      }
+      
+      .nav-list {
+        display: flex;
+        margin-right: 2rem;
+      }
+      
+      @media (max-width: 28.75em) {
+        .nav {
+          justify-content: center;
+        }
+      
+        .nav-list {
+          margin: 0 1rem;
+        }
+      }
+      
+      .nav-list a {
+        display: block;
+        font-size: 2.2rem;
+        padding: 2rem;
+      }
+      
+      .nav-list a:hover {
+        background: var(--main-blue);
+      } 
+      .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .column {
+    flex-basis: 50%;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #offerButton {
+    background-color: red;
+    color: black;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+  }
+
+  #questionnaireLink {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .questionnaire {
+      text-align: center;
+      color: black;
+    }
+
+    .question {
+      display: none;
+    }
+
+    #thank-you-message {
+      display: none;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+<!-- START NAV -->
+
+<section>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li><a href="main.html">Pagină de pornire</a></li>
+          <li><a href="moddelucru.html">Mod de lucru</a></li>
+          <li><a href="servicii.html">Servicii</a></li>
+          <li><a href="portofoliu.html">Portofoliu</a></li>
+          <li><a href="oferta.html">Cere o ofertă</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="https://m.facebook.com/profile.php?id=100091465766312&wtsid=rdr_0s2fHspNQXG8qt10r" target="_blank">
+              <img src="facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/creative_web_2023?igshid=MzRlODBiNWFlZA==" target="_blank">
+              <img src="instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+            </a>
+          </li>
+        </ul>
+      </nav> 
+</section>
+<!-- END NAV -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Start Section 1-->
+ <div class="questionnaire">
+    <h1>Cere o ofertă</h1>
+
+    <div class="question" id="question-1">
+      <p>Să facem cunoștință! Care este numele tău?</p>
+      <input type="text" id="answer-1">
+      <button onclick="showNextQuestion(2)">Next</button>
+    </div>
+
+    <div class="question" id="question-2">
+      <p>Ne pare bine de cunoștință! Ești persoană juridică?</p>
+      <input type="radio" name="answer-2" value="da"> Da
+      <input type="radio" name="answer-2" value="nu"> Nu
+      <button onclick="showNextQuestion(3)">Next</button>
+    </div>
+
+    <div class="question" id="question-3">
+      <p>Ce putem să creăm pentru tine?</p>
+      <input type="text" id="answer-3">
+      <button onclick="showNextQuestion(4)">Next</button>
+    </div>
+
+    <div class="question" id="question-4">
+      <p>Povestește-ne în câteva cuvinte despre proiectul tău</p>
+      <textarea id="answer-4"></textarea>
+      <button onclick="showNextQuestion(5)">Next</button>
+    </div>
+
+    <div class="question" id="question-5">
+      <p>Câte pagini îți dorești să aibă site-ul?</p>
+      <input type="number" id="answer-5">
+      <button onclick="showNextQuestion(6)">Next</button>
+    </div>
+
+    <div class="question" id="question-6">
+      <p>Îți dorești ca proiectul să fie gata până la o anumită dată?</p>
+      <input type="date" id="answer-6">
+      <button onclick="showNextQuestion(7)">Next</button>
+    </div>
+
+    <div class="question" id="question-7">
+      <p>Hai să trecem la treabă! Pe ce adresă de e-mail să îți trimitem cotația de preț?</p>
+      <input type="email" id="answer-7">
+      <button onclick="showNextQuestion(8)">Next</button>
+    </div>
+
+    <div class="question" id="question-8">
+      <p>În cazul în care va fi nevoie să ne auzim la telefon, pe ce număr te putem suna?</p>
+      <input type="tel" id="answer-8">
+      <button onclick="submitQuestionnaire()">Trimite</button>
+    </div>
+
+    <div id="thank-you-message">
+      <h2>Îți mulțumim!</h2>
+      <p>Am primit detaliile.</p>
+      <p>Te vom contacta și îți vom trimite în scurt timp o cotație de preț.</p>
+    </div>
+  </div>
+
+  <script>
+    function showNextQuestion(nextQuestionNumber) {
+      var currentQuestion = document.getElementById('question-' + (nextQuestionNumber - 1));
+      var nextQuestion = document.getElementById('question-' + nextQuestionNumber);
+
+      // Validate the answer for the current question
+      if (nextQuestionNumber > 2 && nextQuestionNumber <= 8 && !validateAnswer(currentQuestion)) {
+        return; // If answer is invalid, don't proceed to the next question
+      }
+
+      currentQuestion.style.display = 'none';
+      nextQuestion.style.display = 'block';
+
+      // Scroll to the top of the next question
+      window.scrollTo(0, 0);
+    }
+
+    function validateAnswer(question) {
+      var input = question.querySelector('input[type=text], input[type=email], input[type=date], input[type=tel]');
+      if (input && !input.value.trim()) {
+        alert('Please answer the question before proceeding.');
+        return false;
+      }
+
+      return true;
+    }
+
+    function submitQuestionnaire() {
+      var thankYouMessage = document.getElementById('thank-you-message');
+      var questionnaire = document.querySelector('.questionnaire');
+      questionnaire.style.display = 'none';
+      thankYouMessage.style.display = 'block';
+    }
+  </script>
+  <!--End Section 1-->
+  <br>
+  <br>
+  <br>
+
+  <!-- START FOOTER SECTION -->
+  <footer class="footer-section" style="background-color: red; color: white;">
+    <div class="container" style="padding: 0 20px; display: flex; justify-content: space-between;">
+      <div class="column">
+        <p>DESPRE NOI<br>
+          SC QUALITYHOLIC SRL<br>
+          47751462<br>
+          J23/1493/2023<br><br>
+        </p>
+      </div>
+      <div class="column">
+        <p>URMĂREȘTE-NE<br>
+          Rămâi la curent cu serviciile noastre<br><br>
+          <a href="https://m.facebook.com/profile.php?id=100091465766312&wtsid=rdr_0s2fHspNQXG8qt10r" target="_blank"><i class="fab fa-facebook"></i> Facebook</a><br>
+          <a href="https://instagram.com/creative_web_2023?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </p>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <p>Politica de confidențialitate</p>
+      <img src="Sign.png" alt="Designed by" class="designed-by-image" style="width: 50px; height: 50px; display: block; margin: 0 auto;">
+    </div>
+  </footer>
+  <!-- END FOOTER SECTION -->
+  </body>
+  </html>
